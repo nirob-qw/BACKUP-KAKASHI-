@@ -141,7 +141,7 @@ module.exports = {
    };
 
    if ((event.body.toLowerCase() == "owner") || (event.body.toLowerCase() == "Owner")) {
-     return api.sendMessage("💝🥀𝐎𝐖𝐍𝐄𝐑:- ☞𝗔𝗬𝗔𝗡 𝐀𝐇𝐌𝐄𝐝☜ 💫\n🖤𝚈𝚘𝚞 𝙲𝚊𝚗 𝙲𝚊𝚕𝚕 𝙷𝚒𝚖 𝗔𝗬𝗔𝗡🖤\n😳𝐇𝐢𝐬 𝐅𝐚𝐜𝐞𝐛𝐨𝐨𝐤 𝐢𝐝 𝐧𝐚𝐦𝐞🤓:- ☞ アヤン\n👋For Any Kind Of Help Contact 👉 01839268235", threadID);
+     return api.sendMessage("💝🥀𝐎𝐖𝐍𝐄𝐑:- ☞Ariyan 𝐀𝐇𝐌𝐄𝐝☜ 💫\n🖤𝚈𝚘𝚞 𝙲𝚊𝚗 𝙲𝚊𝚕𝚕 𝙷𝚒𝚖 𝗔Riyan🖤\n😳𝐇𝐢𝐬 𝐅𝐚𝐜𝐞𝐛𝐨𝐨𝐤 𝐢𝐝 𝐧𝐚𝐦𝐞🤓:- ☞ A RI YA N\n👋For Any Kind Of Help Contact 👉 01867327412", threadID);
    };
 
     if (event.body.toLowerCase().startsWith("bot") || event.body.toLowerCase() === "Bot") {
