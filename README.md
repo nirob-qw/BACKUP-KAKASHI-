@@ -1,8 +1,9 @@
-<img src="https://i.imgur.com/7OG6V8h.jpeg" alt="banner">
-<h1 align="center"><img src="./dashboard/images/logo-non-bg.png" width="22px">  -𝗕𝗢𝗧 -  𝗠𝗘𝗦𝗦𝗘𝗡𝗚𝗘𝗥 𝗖𝗛𝗔𝗧 𝗕𝗢𝗧</h1>
+<img src="https://i.imgur.com/ICh2606.jpeg" alt="">
+<h1 align="center"><img src="./dashboard/images/<img src="https://i.imgur.com/7OG6V8h.jpeg" alt="">
+<h1 align="center"><img src="./dashboard/images/" width="22px">  -  𝗠𝗘𝗦𝗦𝗘𝗡𝗚𝗘𝗥 𝗖𝗛𝗔𝗧 𝗕𝗢𝗧</h1>
 <!-- Github README -->
 
-<p align="center"><img src="https://img.shields.io/badge/I Am BAYJID %20BANGLADESHI- NOOB PROGRAMMER-green?colorA=%23ff0000&colorB=%23017e40&style=flat-square">
+<p align="center"><img src="https://img.shields.io/badge/ NIROB %20BANGLADESHI- NOOB PROGRAMMER-green?colorA=%23ff0000&colorB=%23017e40&style=flat-square">
 
 </i></b></h3>
 <h3 align="center">
@@ -18,7 +19,7 @@
 
 
 <h3><b><i>🏆 Github Statistics :</i></b></h3>
-<a href="https://github.com/BAYJID-404-BOYZ"><img width=550 src="https://github-profile-trophy.vercel.app/?username=𝐌𝐎𝐇𝐀𝐌𝐌𝐀𝐃 𝐁𝐀𝐘𝐉𝐈𝐃&theme=dracula&no-frame=true&title=Followers,Stars,Commit,Repository,Issues"/></a>
+<a href="https://github.com/nirob-404-BOYZ"><img width=550 src="https://github-profile-trophy.vercel.app/?username=𝐍𝐢𝐫𝐨𝐛 𝐡𝐚𝐭𝐚𝐤𝐞 &theme=dracula&no-frame=true&title=Followers,Stars,Commit,Repository,Issues"/></a>
 
 </p>
 <p align="center"> 
@@ -32,7 +33,7 @@
 
 <img align="center" alt="line" src="https://github.com/DalpatRathore/dalpatrathore/blob/main/assets/images/line-2.svg">
 
-- ➪ 𝗡𝗔𝗠𝗘      :aYan
+- ➪ 𝗡𝗔𝗠𝗘      : 𝐍𝐢𝐫𝐨𝐛
 
 <img align="center" alt="line" src="https://github.com/DalpatRathore/dalpatrathore/blob/main/assets/images/line-2.svg">
 
@@ -40,23 +41,26 @@
 
 <img align="center" alt="line" src="https://github.com/DalpatRathore/dalpatrathore/blob/main/assets/images/line-2.svg">
 
-- ➪ 𝗘𝗗𝗨𝗖𝗔𝗧𝗜𝗢𝗡 :- 𝗦𝗧𝗨𝗗𝗬
+- ➪ 𝗘𝗗𝗨𝗖𝗔𝗧𝗜𝗢𝗡 :- 𝐚𝐛𝐛𝐮 𝐚𝐦𝐦𝐮 𝐦𝐚𝐢𝐫 
 
 <img align="center" alt="line" src="https://github.com/DalpatRathore/dalpatrathore/blob/main/assets/images/line-2.svg">
 
-- ➪ 𝗥𝗘𝗟𝗔𝗧𝗜𝗢𝗡𝗦𝗛𝗜𝗣 :- 𝗦𝗜𝗡𝗚𝗟𝗘
+- ➪ 𝗥𝗘𝗟𝗔𝗧𝗜𝗢𝗡𝗦𝗛𝗜𝗣 :- 𝐞𝐭𝐚 𝐤𝐢 𝐣𝐢𝐧i𝐬
 
 <img align="center" alt="line" src="https://github.com/DalpatRathore/dalpatrathore/blob/main/assets/images/line-2.svg">
 
-- ➪ 𝗙𝗔𝗖𝗘𝗕𝗢𝗢𝗞 :- [AYAN](www.xnxx.com/)
+- ➪ 𝗙𝗔𝗖𝗘𝗕𝗢𝗢𝗞 :- 𝐘𝐣𝐧𝐠 𝐙𝐡𝐞𝐧
 
 <img align="center" alt="line" src="https://github.com/DalpatRathore/dalpatrathore/blob/main/assets/images/line-2.svg">
 
-- ➪ 𝗜𝗡𝗦𝗧𝗔𝗚𝗥𝗔𝗠 :- [Shor Magi 😞](www.xvideos.com)
+- ➪ 𝗜𝗡𝗦𝗧𝗔𝗚𝗥𝗔𝗠 :- 𝐤𝐚𝐤𝐚𝐬𝐡𝐢
 
 <img align="center" alt="line" src="https://github.com/DalpatRathore/dalpatrathore/blob/main/assets/images/line-2.svg">
 
 <h3><b><i> Contact me in Touch :</i></b></h3>
-<a href="https://github.com/BAYJID-404-BOYZ"><img align="left" title="Github" alt="Github" width="30px" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/github.svg" /></a>
-<a href="https://fb.com/BAYJID.404-BOYZ"><img align="left" title="Facebook" alt="Facebook" width="30px" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/facebook.svg" /></a>
-<a href="https://www.instagram.com/mr_bayjid120"><img align="left" title="Instagram" alt="Instagram" width="30px" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" /></a>
+<a href="https://github.com/nirob-404-BOYZ"><img align="left" title="Github" alt="Github" width="30px" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/github.svg" /></a>
+<a href="https://fb.com/nirob.404-BOYZ"><img align="left" title="Facebook" alt="Facebook" width="30px" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/facebook.svg" /></a>
+<a href="https://www.instagram.com/mr_bayjid120"><img align="left" title="Instagram" alt="Instagram" width="30px" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" /></>"> 
+  <-𝗕𝗢𝗧 -  𝗠𝗘𝗦𝗦𝗘𝗡𝗚𝗘𝗥 𝗖𝗛𝗔𝗧 𝗕𝗢𝗧</h1>
+<!-- Github README -->
+
