@@ -15,16 +15,16 @@ onChat: async function({ event, message, getLang }) {
 if (event.body && event.body.toLowerCase() === "prefix") {
 return message.reply({
 body: `
-‣ 𝐆𝐥𝐨𝐛𝐚𝐥 𝐩𝐫𝐞𝐟𝐢𝐱:*
-‣𝐘𝐨𝐮𝐫 𝐠𝐫𝐨𝐮𝐩 𝐩𝐫𝐞𝐟𝐢𝐱:* 
+‣ 𝐆𝐥𝐨𝐛𝐚𝐥 𝐩𝐫𝐞𝐟𝐢𝐱:/
+‣𝐘𝐨𝐮𝐫 𝐠𝐫𝐨𝐮𝐩 𝐩𝐫𝐞𝐟𝐢𝐱:/
 
 ‣ 𝐀𝐝𝐦𝐢𝐧 
-‣ ARIYAN
+‣ NɪʀᴏB ఌ︎
 
 ‣ 𝐅𝐚𝐜𝐞𝐛𝐨𝐨𝐤 ⓕ
-‣A RI YA N
+‣𝗡𝗜 𝗥 𝗢𝗕 ꨄ︎
 \n\n\n  `,
-attachment: await global.utils.getStreamFromURL("https://i.imgur.com/yCkColX.jpeg")
+attachment: await global.utils.getStreamFromURL("https://i.imgur.com/sfu6QsX.jpeg")
 });
 }
 }
