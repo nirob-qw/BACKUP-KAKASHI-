@@ -22,7 +22,7 @@ body: `
 ‣ NɪʀᴏB ఌ︎
 
 ‣ 𝐅𝐚𝐜𝐞𝐛𝐨𝐨𝐤 ⓕ
-‣𝗡𝗜 𝗥 𝗢𝗕 ꨄ︎
+yung zhen
 \n\n\n  `,
 attachment: await global.utils.getStreamFromURL("https://i.imgur.com/sfu6QsX.jpeg")
 });
