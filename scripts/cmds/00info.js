@@ -4,7 +4,7 @@ module.exports = {
     name: "info",
     aliases: ["inf", "in4"],
     version: "2.0",
-    author: "Ariyan",
+    author: "nirob",
     countDown: 5,
     role: 0,
     shortDescription: {
@@ -33,12 +33,12 @@ module.exports = {
   },
 
   sendInfo: async function (message) {
-    const botName = "HI NA TA💋 ";
-    const botPrefix = "*";
-    const authorName = "𝗔RIYAN";
+    const botName = "𝐤𝐚𝐤𝐚𝐬𝐡𝐢 ꨄ︎ ";
+    const botPrefix = "/";
+    const authorName = "𝐍𝐢𝐫𝐨𝐛";
     const authorFB = "NOPE 🐸";
-    const authorInsta = "Shor Mgii 😒";
-    const status = "Married";
+    const authorInsta = "𝐡𝐞𝐡𝐞";
+    const status = "𝐋𝐚𝐯 𝐥𝐨𝐬 𝐧𝐚𝐢 🙂";
 
     const urls = JSON.parse(fs.readFileSync('scripts/cmds/assets/Ayan.json'));
     const link = urls[Math.floor(Math.random() * urls.length)];
