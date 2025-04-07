@@ -16,12 +16,12 @@ config: {
   onStart: async function ({ api, event }) {
   try {
     const ownerInfo = {
-      name: '𝗔RIYA𝗡',
+      name: '𝐍𝐈𝐑𝐎𝐁',
       gender: 'MaLe',
-      age: '19+',
-      height: '5.11+',
-      choise: 'Russian 😞',
-      nick: 'Jamai Dak mgi '
+      age: '18+',
+      height: '𝐉𝐀𝐍𝐈 𝐍𝐀',
+      choise: '',
+      nick: '😒'
     };
 
     const bold = 'https://i.imgur.com/v9A1DLB.mp4'; // Replace with your Google Drive videoid link https://drive.google.com/uc?export=download&id=here put your video id
