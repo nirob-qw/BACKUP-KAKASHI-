@@ -1,6 +1,6 @@
 module.exports = {
 config: {
-name: "bayjid",
+name: "Kakashi2",
 version: "1.0",
 author: "AceGun",
 countDown: 5,
@@ -12,9 +12,9 @@ category: "no prefix",
 
 onStart: async function(){}, 
 onChat: async function({ event, message, getLang }) {
-if (event.body && event.body.toLowerCase() === "ayan 🙂") {
+if (event.body && event.body.toLowerCase() === "NIROB 🙂") {
 return message.reply({
-body: " 「【𝙷𝙴𝙻𝙻𝙾 𝙴𝚅𝙴𝚁𝚈𝙾𝙽𝙴】⦿\n \n\n「Ă̈Y̆̈Ă̈N̆̈】\n─ Here is MIkeY☠️」",
+body: " 「【𝙷𝙴𝙻𝙻𝙾 𝙴𝚅𝙴𝚁𝚈𝙾𝙽𝙴】⦿\n \n\n「nirob】\n─ Here is KAKASHI ☠️」",
 attachment: await global.utils.getStreamFromURL("https://i.imgur.com/IN0CM0T.mp4")
 });
 }
