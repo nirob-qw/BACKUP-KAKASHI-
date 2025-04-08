@@ -3,13 +3,13 @@ const axios = require("axios");
 const path = require("path");
 const { getPrefix } = global.utils;
 const { commands, aliases } = global.GoatBot;
-const doNotDelete = "[ARIYAN]"; 
+const doNotDelete = "[NIROB]"; 
 
 module.exports = {
   config: {
     name: "help",
     version: "1.17",
-    author: "ArYan",
+    author: "Nirob",
     countDown: 5,
     role: 0,
     shortDescription: {
@@ -34,7 +34,7 @@ module.exports = {
       const categories = {};
       let msg = "╭───────❁";
 
-      msg += `\n│𝗔RI𝗬𝗔𝗡 𝗛𝗘𝗟𝗣 𝗟𝗜𝗦𝗧\n╰────────────❁`; 
+      msg += `\n│𝐍𝐈𝐑𝐎𝐁 𝗛𝗘𝗟𝗣 𝗟𝗜𝗦𝗧\n╰────────────❁`; 
 
       for (const [name, value] of commands) {
         if (value.config.role > 1 && role < value.config.role) continue;
@@ -62,9 +62,9 @@ module.exports = {
       const totalCommands = commands.size;
       msg += `\n\n╭─────✰[𝗘𝗡𝗝𝗢𝗬]\n│>𝗧𝗢𝗧𝗔𝗟 𝗖𝗠𝗗𝗦: [${totalCommands}].\n│𝗧𝗬𝗣𝗘𝖳:[ ${prefix}𝗛𝗘𝗟𝗣 \n│.]\n╰────────────✰`;
       msg += ``;
-      msg += `\n╭─────✰\n│ ╣[𝗔 R I 𝗬 𝗔 𝗡]╠\n╰────────────✰`; 
+      msg += `\n╭─────✰\n│ ╣[𝐍𝐈𝐑𝐎𝐁 ꨄ︎]╠\n╰────────────✰`; 
 
-const helpListImages = [ "https://i.imgur.com/a3JShJK.jpeg" ];
+const helpListImages = [ "https://i.imgur.com/Jc6QgUc.mp4" ];
 
 
       const helpListImage = helpListImages[Math.floor(Math.random() * helpListImages.length)];
