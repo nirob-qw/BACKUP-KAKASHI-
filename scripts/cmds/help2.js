@@ -66,29 +66,29 @@ module.exports = {
 			msg += `♥️ | 𝐍𝐈𝐑𝐎𝐁 𝐁𝐎𝐓 𝐕4`; // its not decoy so change it if you want 
 
 			const helpListImages = [
-				'https://i.imgur.com/xyDcrW3.jpeg',
+				'https://i.imgur.com/pzAKkkR.jpeg',
 
-				'https://i.imgur.com/wdZLWTU.jpeg',
+				'https://i.imgur.com/j00I6G0.jpeg',
 
-				'https://i.imgur.com/cJksczg.jpeg',
+				'https://i.imgur.com/e3qzZrN.jpeg',
 
-				'https://i.imgur.com/URCFjrS.jpeg',
+				'https://i.imgur.com/8pRKV0v.jpeg',
 
-				'https://i.imgur.com/iAHVc1a.jpeg',
+				'',
 													'https://i.imgur.com/OSWG34k.jpeg',
 
-				'https://i.imgur.com/sTHeaMB.jpeg',
+				'',
 
-				'https://i.imgur.com/6zzEoxf.jpeg',
+				'',
 
-				'https://i.imgur.com/rDsUmFW.jpeg',
+				'',
 
-				'https://i.imgur.com/Ew37GbZ.jpeg',
+				'',
 
-				'https://i.imgur.com/QXnv0P8.jpeg',                                    
-				'https://i.imgur.com/f755v5B.jpeg', 
+				'',                                    
+				'', 
 
-				'https://i.imgur.com/7g5AKgh.jpeg',
+				'',
 			];
 
 			const helpListImage = helpListImages[Math.floor(Math.random() * helpListImages.length)];
