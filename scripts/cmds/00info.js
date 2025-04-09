@@ -36,7 +36,7 @@ module.exports = {
     const botName = "𝐤𝐚𝐤𝐚𝐬𝐡𝐢 ꨄ︎ ";
     const botPrefix = "/";
     const authorName = "𝐍𝐢𝐫𝐨𝐛";
-    const authorFB = "NOPE 🐸";
+    const authorFB = "yung zhen";
     const authorInsta = "𝐡𝐞𝐡𝐞";
     const status = "𝐋𝐚𝐯 𝐥𝐨𝐬 𝐧𝐚𝐢 🙂";
 
