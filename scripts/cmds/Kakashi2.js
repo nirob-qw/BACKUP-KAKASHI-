@@ -15,7 +15,7 @@ onChat: async function({ event, message, getLang }) {
 if (event.body && event.body.toLowerCase() === "kakashi2") {
 return message.reply({
 body: " 「【𝙷𝙴𝙻𝙻𝙾 𝙴𝚅𝙴𝚁𝚈𝙾𝙽𝙴】⦿\n \n\n「nirob】\n─ Here is KAKASHI ☠️」",
-attachment: await global.utils.getStreamFromURL("https://i.imgur.com/IN0CM0T.mp4")
+attachment: await global.utils.getStreamFromURL("https://i.imgur.com/pldx2Zl.mp4")
 });
 }
 }
