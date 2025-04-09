@@ -1,87 +1,58 @@
+const axios = require("axios");
+
+const baseApiUrl = async () => {
+  const base = 'https://mahmud-sing.onrender.com';
+  return base;
+};
+
 module.exports = {
- config: {
- name: "sing",
- version: "1.0",
- role: 0,
- author: "kshitiz",
- cooldowns: 5,
- shortdescription: "download music from YouTube",
- longdescription: "",
- category: "music",
- usages: "{pn} music name",
- dependencies: {
- "fs-extra": "",
- "request": "",
- "axios": "",
- "ytdl-core": "",
- "yt-search": ""
- }
- },
+    config: {
+        name: "xing",
+        version: "1.7",
+        author: "MahMUD", 
+        countDown: 10,
+        role: 0,
+        category: "music",
+        guide: "{p}sing [query]"
+    },
 
- onStart: async ({ api, event }) => {
- const axios = require("axios");
- const fs = require("fs-extra");
- const ytdl = require("ytdl-core");
- const request = require("request");
- const yts = require("yt-search");
+    onStart: async function ({ api, event, args, message }) {
+        if (args.length === 0) {
+            return message.reply("❌ | Please provide a sing name janu.");
+        }
 
- const input = event.body;
- const text = input.substring(12);
- const data = input.split(" ");
+        try {
+            const query = encodeURIComponent(args.join(" "));
+            const apiUrl = `${await baseApiUrl()}/sing?query=${query}`;
 
- if (data.length < 2) {
- return api.sendMessage("Please specify a music name.", event.threadID);
- }
+            message.reply("𝐖𝐚𝐢𝐭 𝐤𝐨𝐫𝐨 𝐣𝐚𝐧 <😘");
 
- data.shift();
- const musicName = data.join(" ");
+            const response = await axios.get(apiUrl, {
+                responseType: "stream",
+                headers: { "author": module.exports.config.author }
+            });
 
- try {
- api.sendMessage(`✔ | Searching music for "${musicName}".\ ekxin parkhanuhos...`, event.threadID);
+            console.log("Response:", response);
 
- const searchResults = await yts(musicName);
- if (!searchResults.videos.length) {
- return api.sendMessage("kunai music vetiyena.", event.threadID, event.messageID);
- }
+            if (response.data.error) {
+                return message.reply(`❌ Error: ${response.data.error}`);
+            }
 
- const music = searchResults.videos[0];
- const musicUrl = music.url;
+            message.reply({
+                body: `✅ Here's your song: ${args.join(" ")}`,
+                attachment: response.data
+            });
 
- const stream = ytdl(musicUrl, { filter: "audioonly" });
+        } catch (error) {
+            console.error("Error:", error.message);
 
- const fileName = `${event.senderID}.mp3`;
- const filePath = __dirname + `/cache/${fileName}`;
+            if (error.response) {
+                console.error("Response error data:", error.response.data);
+                console.error("Response status:", error.response.status);
+                return message.reply(`❌ Error: ${error.response.data.error || error.message}`);
+            }
 
- stream.pipe(fs.createWriteStream(filePath));
-
- stream.on('response', () => {
- console.info('[DOWNLOADER]', 'Starting download now!');
- });
-
- stream.on('info', (info) => {
- console.info('[DOWNLOADER]', `Downloading music: ${info.videoDetails.title}`);
- });
-
- stream.on('end', () => {
- console.info('[DOWNLOADER] Downloaded');
-
- if (fs.statSync(filePath).size > 26214400) {
- fs.unlinkSync(filePath);
- return api.sendMessage('❌ | The file could not be sent because it is larger than 25MB.', event.threadID);
- }
-
- const message = {
- body: `🙆‍♀️ ❀ tapaiko geet\ ❀ Title: ${music.title}\ Duration: ${music.duration.timestamp}`,
- attachment: fs.createReadStream(filePath)
- };
-
- api.sendMessage(message, event.threadID, () => {
- fs.unlinkSync(filePath);
- });
- });
- } catch (error) {
- console.error('[ERROR]', error);
- api.sendMessage('🥱 ❀ An error occurred while processing the command.', event.threadID);
- }
- }
+            message.reply("❌ An error occurred while processing your request.");
+        }
+    }
 };
