@@ -4,7 +4,7 @@ module.exports = {
     name: "info2",
     aliases: ["inf", "in4"],
     version: "2.0",
-    author: "VEX_ADNAN",
+    author: "nirob",
     countDown: 5,
     role: 0,
     shortDescription: {
@@ -33,11 +33,11 @@ module.exports = {
   },
 
   sendInfo: async function (message) {
-    const botName = " 🕸️ SpideY 🕷️ ";
+    const botName = " KAKASHI ";
     const botPrefix = ".";
-    const authorName = "Mahid";
-    const authorFB = "LaFie Nadim";
-    const authorInsta = "Shor Mgii 😒";
+    const authorName = "NIROB";
+    const authorFB = " FB NAI FACEBOOK ACHE ";
+    const authorInsta = "";
     const status = "Loading......";
 
     const urls = JSON.parse(fs.readFileSync('scripts/cmds/assets/Ayan.json'));
